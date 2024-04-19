@@ -1,16 +1,11 @@
 # promilo_project
+A simple app with authentication by post request and simple UI.
 
-A new Flutter project.
+Architecture      -  MVC
+State management  -  Riverpod
+Router            - Default navigator
 
-## Getting Started
+## Note
+API has a problem when try to login sometimes. An exception shows up when try to login. But, sometimes there is no problem.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To execute the code there are riverpod and freezed files that must be generated. To build them run "**flutter pub run build_runner build**" in your terminal.
