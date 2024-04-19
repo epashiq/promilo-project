@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:promilo_project/core/theme/theme.dart';
 import 'package:promilo_project/view/widgets/list_view_widget.dart';
+import 'package:promilo_project/view/widgets/meetup_list_widget.dart';
 import 'package:promilo_project/view/widgets/textfield_widget.dart';
 
 class HomePAge extends StatelessWidget {
@@ -19,6 +20,7 @@ class HomePAge extends StatelessWidget {
       body: const Padding(
         padding: EdgeInsets.symmetric(horizontal: 20),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
               height: 20,
@@ -27,7 +29,22 @@ class HomePAge extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            ListViewWidget()
+            ListViewWidget(),
+            SizedBox(
+              height: 10,
+            ),
+            Text('Trending Popular People',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: AppTheme.text,
+                    fontSize: 18)),
+            SizedBox(
+              height: 15,
+            ),
+            MeetupListWidget(),
+            SizedBox(
+              height: 15,
+            ),
           ],
         ),
       ),

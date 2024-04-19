@@ -15,8 +15,8 @@ class ListViewWidget extends ConsumerWidget {
 
     final List<String> imageUrls = [
       'https://tse1.mm.bing.net/th?id=OIP.pLlumYB7_F2OhlhoLTJOAwHaE8&pid=Api&P=0&h=180',
-      'https://s39613.pcdn.co/wp-content/uploads/2019/06/rights-and-responsibilities-for-group-members-062819-2.jpg',
-      'https://www.marketing91.com/wp-content/uploads/2021/02/What-is-Group.jpg',
+      'https://tse4.mm.bing.net/th?id=OIP.M3N2u518d2L_LRntB6QuPwHaFM&pid=Api&P=0&h=180',
+      'https://tse1.mm.bing.net/th?id=OIP.txMse2JIVwRDxGG9KGqLowHaEK&pid=Api&P=0&h=180',
     ];
     return SizedBox(
       height: 250,
