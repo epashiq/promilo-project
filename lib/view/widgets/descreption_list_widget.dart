@@ -9,7 +9,7 @@ class DescreptionListWidget extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Container(
-      height: 400,
+      height: 370,
       padding: const EdgeInsets.only(bottom: 12),
       decoration: const BoxDecoration(
         color: Color.fromARGB(255, 209, 209, 209),
@@ -20,17 +20,17 @@ class DescreptionListWidget extends ConsumerWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           SizedBox(
-            height: 350,
+            height: 320,
             child: PageView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: 5,
               itemBuilder: (context, index) {
                 final imageUrls = [
-                  'https://www.shutterstock.com/image-photo/pair-sun-loungers-beach-umbrella-600nw-323287880.jpg',
-                  'https://www.shutterstock.com/image-photo/beachside-tourism-landscape-luxurious-beach-600nw-2104948745.jpg',
-                  'https://www.shutterstock.com/image-photo/pair-sun-loungers-beach-umbrella-600nw-323287880.jpg',
-                  'https://www.shutterstock.com/image-photo/beachside-tourism-landscape-luxurious-beach-600nw-2104948745.jpg',
-                  'https://www.shutterstock.com/image-photo/pair-sun-loungers-beach-umbrella-600nw-323287880.jpg',
+                  'https://tse4.mm.bing.net/th?id=OIP.RHXoCurFLHz4JTMOowvYaAHaEo&pid=Api&P=0&h=180',
+                  'https://tse3.mm.bing.net/th?id=OIP.pSYGouphrE4GdncfRjpK-AHaEo&pid=Api&P=0&h=180',
+                  'https://tse2.mm.bing.net/th?id=OIP.L3f9fulkqcuLUl3L3LhNaAHaEK&pid=Api&P=0&h=180',
+                  'https://tse3.mm.bing.net/th?id=OIP.s6drW-EZMC5HlkA6r-tf4wHaFj&pid=Api&P=0&h=180',
+                  'https://tse1.mm.bing.net/th?id=OIP.tmjcQcM-3S7Dk6Y10frzGQHaE8&pid=Api&P=0&h=180',
                 ];
                 return Container(
                   padding: const EdgeInsets.all(8),
@@ -89,7 +89,7 @@ class DescreptionListWidget extends ConsumerWidget {
                 ),
               ),
             ],
-          )
+          ),
         ],
       ),
     );
