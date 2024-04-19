@@ -1,9 +1,9 @@
-# promilo_project
+# Promilo project
 A simple app with authentication by post request and simple UI.
 
-Architecture      -  MVC
-State management  -  Riverpod
-Router            - Default navigator
+ - **Architecture**            - MVC
+ - **State management** - Riverpod
+ - **Router** 						- Default navigator
 
 ## Note
 API has a problem when try to login sometimes. An exception shows up when try to login. But, sometimes there is no problem.
