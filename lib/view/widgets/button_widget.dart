@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:promilo_project/controller/provider/auth_provider.dart';
 import 'package:promilo_project/core/theme/theme.dart';
-
 
 class ButtonWidget extends ConsumerWidget {
   final GlobalKey<FormState> formKey;
@@ -26,7 +26,9 @@ class ButtonWidget extends ConsumerWidget {
             side: const BorderSide(color: AppTheme.button, width: 3),
           )),
       onPressed: () {
-        
+        ref
+            .read(authProvider.notifier)
+            .loginWithEmailAndPassword(email, password, context);
       },
       child: const Text(
         'Submit',
